@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const uri = "mongodb+srv://1234:1234@anhtu.ede1ies.mongodb.net/newanhtu";
+const uri = "mongodb+srv://1234:1234@anhtu.ede1ies.mongodb.net/BookList";
 
 mongoose.connect(uri, { 
         useNewUrlParser: true, 
